@@ -59,7 +59,7 @@ Consiste em seis desafios propostos pela [Trybe]() para resolução e otimizaç�
 
 Legenda:
 🔸 Arquivos desenvolvidos pela Trybe (não foram alterados).
-🔹 Arquivos a serem alterados para realizar os requisitos.
+🔹 Arquivos desenvolvidos por mim.
 
 ```
 
