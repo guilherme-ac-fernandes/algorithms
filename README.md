@@ -9,7 +9,11 @@ Consiste em seis desafios propostos pela [Trybe]() para resolução e otimizaç�
 
 | Função | Descrição | Localização |
 |---|---|---|
-| `simple_report` | Classe  | `` |
+| `study_schedule` | Retorna o número de estudantes online mediante os horários informados no array de tuplas em comparação com a hora informada | `challenges/challenge_study_schedule.py` |
+| `is_palindrome_recursive` | Avaliar se uma palavra é palíndroma, de forma recursiva | `challenges/challenge_palindromes_recursive.py` |
+| `is_anagram` | Avaliar se as palavras informada são anagramas | `challenges/challenge_anagrams.py` |
+| `find_duplicate` | Dentro de um array de números, retorna o número duplicado | `challenge_find_the_duplicate.py` |
+| `is_palindrome_iterative` | Avaliar se uma palavra é palíndroma, de forma iteratividade | `challenge_palindromes_iterative.py` |
 
 
 <br />
@@ -20,7 +24,7 @@ Consiste em seis desafios propostos pela [Trybe]() para resolução e otimizaç�
  
 | Teste | Descrição | Localização |
 |---|---|---|
-| `test_product` | Implement | `` |
+| `test_encrypt_message` | Criação dos testes para função de criptografia de palavras | `tests/encrypt/test_encrypt.py` |
 
 
 <br />
@@ -61,7 +65,7 @@ Legenda:
 
 ### Instruções
 
-- Para rodar a aplicação localmente e os testes, realize o clone do projeto e utilize os comandos a seguir:
+- Realize o clone do projeto e utilize os comandos a seguir:
 
 ```
 Para instalar as dependências e iniciar as aplicações:
@@ -70,27 +74,9 @@ python3 -m venv .venv // para criar o ambiente virtual
 source .venv/bin/activate // para ativar o ambiente virtual
 python3 -m pip install -r dev-requirements.txt // instalação das dependências
 
-Para gerar os relatórios via linha de comando:
-<-- na raiz do projeto -->
-pip install . // para instalar a dependência da linha de comando
-inventory_report <argumento1> <argumento2>
---> <argumento1> = deve receber o caminho de um arquivo a ser importado
---> <argumento2> = formato do relatório (simples ou completo)
-ou
-python3 -m inventory_report.main <argumento1> <argumento2>
 
-Para rodar todos os testes:
+Para rodar os testes:
 <-- na raiz do projeto -->
 python3 -m pytest
-
-Para rodar os testes individualmente:
-<-- na raiz do projeto -->
-python3 -m pytest -k test_cria_produto
-python3 -m pytest -k test_relatorio_produto
-python3 -m pytest -k test_decorar_relatorio
-
-Para rodar os testes utilizando Docker:
-<-- na raiz do projeto -->
-docker-compose run --rm inventory pytest
 ```
 
