@@ -4,6 +4,8 @@ Consiste em seis desafios propostos pela [Trybe]() para resolução e otimizaç�
 
 * Solucionado com a utilizando da linguagem Python
 
+<br />
+
 <details>
   <summary><strong>Descrição das soluções criadas:</strong></summary><br />
 
