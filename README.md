@@ -1,4 +1,4 @@
-# Algoritmos 🧩💻 
+# Projeto Algoritmos 🧩💻 
 
 Consiste em seis desafios propostos pela [Trybe]() para resolução e otimização dos algoritmos, aplicando os conceitos de recursividade e iteratividade; complexidade de tempo e espaço; aplicação de algoritmos de busca e ordenação não nativos do Python e realizações de testes.
 
